@@ -11,6 +11,7 @@ public class KeyboardAndMouseInput {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://formy-project.herokuapp.com/keypress");
+	print("Success fully run");
 
         driver.quit();
     }
